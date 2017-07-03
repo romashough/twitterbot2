@@ -1,0 +1,5 @@
+cron:
+- description: hai
+  url: /main.php
+  schedule: every 12 hours
+  timezone: Asia/Tokyo
