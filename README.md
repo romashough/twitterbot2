@@ -1,4 +1,4 @@
 
-twitter bot . it tweets ano are.
+twitter bot . it tweets Japanese beautiful poem.
 
 https://twitter.com/iroironashi

@@ -13,13 +13,24 @@ $tweet = get_tweet();
 if( rand(0,3)!=1){
 $tweet .= get_tweet();}
 if( rand(0,3)!=1){
-$tweet .= get_tweet();
-}
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
+if( rand(0,3)!=1){
+$tweet .= get_tweet();}
 
 $to->OAuthRequest("https://api.twitter.com/1.1/statuses/update.json","POST",array("status" => $tweet));
 
 function get_tweet() {
-	$o_data = file_content('data/growl.txt');
+	$o_data = file_content('data/genocide.txt');
 	$tlist = split(",",$o_data);
 	if ("" == end($tlist)) {
 		array_pop($tlist);
