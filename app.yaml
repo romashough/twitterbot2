@@ -1,26 +1,22 @@
-application: iroironashi-clone
-version: 1
 runtime: php55
 api_version: 1
 
 handlers:
-- url: /data/(.*)
-  static_dir: data/\1
-  secure: always
-  
 - url: /lib/(.*)
   script: lib/\1
-  secure: always
+  
+- url: /data/(.*)$
+  script: data/\1
 
 - url: /main.php
   script: main.php
-  secure: always
+  
+- url: /index.php
+  script: index.php
   
 - url: /genocide.php
   script: genocide.php
-  secure: always
   
 - url: /genocide2.php
   script: genocide2.php
-  secure: always
   

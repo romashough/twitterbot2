@@ -1,9 +1,4 @@
-cron:
-- description: test
-  url: /main.php
-  schedule: every 1 mins
-  timezone: Asia/Tokyo
-  
+cron:  
 - description: hai1
   url: /main.php
   schedule: every day 00:00

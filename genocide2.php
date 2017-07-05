@@ -1,6 +1,5 @@
 <?php
 require_once 'lib/twitteroauth.php';
-phpinfo();
 $o_data = get_user_info();
 
 $to = new TwitterOAuth(
@@ -31,7 +30,7 @@ $to->OAuthRequest("https://api.twitter.com/1.1/statuses/update.json","POST",arra
 
 function get_tweet() {
 	$o_data = file_content('data/genocide.txt');
-	$tlist = split(",",$o_data);
+	$tlist = preg_split("/\r\n/",$o_data);
 	if ("" == end($tlist)) {
 		array_pop($tlist);
 	}

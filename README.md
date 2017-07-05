@@ -1,4 +1,11 @@
+試行錯誤したり色々参考にしたりしてなんとかGAE上で動かせるようになったphp習作botのようなgae習作botです
 
-twitter bot . it tweets Japanese beautiful poem.
-
+↓sekaiya-san no script wo kana-ri sankou
 https://twitter.com/iroironashi
+
+Q．なにこれ？
+A．百合カップル絵に挟まりたいとか吐かすキモオタを物言わぬ肉塊にしたいという人類全ての普遍的願望から産まれたbotです
+Q．なにしてんのこれ？
+A．0時ちょうどにそれを轢き潰して肉塊に変えてます
+Q．その行為によって我が社が得られるメリットは？
+A．ゲヂョパキョッギュルルルブチボゴゲヂョッグチャブチッ
